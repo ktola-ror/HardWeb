@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+  <head>
+    <meta charset="utf-8">
+    <meta name = "keywords" content="Blog Kristian Tola , Computer">
+    <meta neme = "acceskey" content = "componenti , sottocomponenti, migliori componenti">
+    <meta name = "author" content = "Kristian Tola">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/Esercizi/Esercitazione 1.1.css" type="text/css">
+    <link rel="stylesheet" href="../../CSS/Esercizi/Esercitazione 1.2.css" type="text/css">
+    <link rel="stylesheet" href="../../CSS/Esercizi/Esercitazione 1.3.css" type="text/css">
+    <link rel="stylesheet" href="../../CSS/Esercizi/Esercitazione 1.4.css" type="text/css">
+    <link rel="stylesheet" href="../../CSS/Esercizi/Esercitazione 3.2.css" type="text/css">
+    <link rel="stylesheet" href="../../CSS/Esercizi/Esercitazione 4.css" type="text/css">
+    <link rel="stylesheet" href="../../CSS/Esercizi/Esercitazione 4.2.css" type="text/css">
+    <link rel="stylesheet" href="footer.css" type="text/css">
+    <link rel="icon" href="images/icona sito.png">
+    <title>Home Page</title>
+  </head>
+  <body>
+
+  <section id="content-main">
+        <header id="content-header">
+
+              <h1 id="logo">HardWeb</h1>
+
+            <div id="menu">
+              <ul>
+                  <li id="current_page"><a href="#content-main">Main</a></li>
+                  <li class="menu_hover"><a href="componenti_tabella (esercizio 3).html">Recensioni componenti</a></li>
+                  <li class="menu_hover"><a href="recensioni (esercizio 4).html">Aggiungi una nuova recensione</a></li>
+                  <li class="menu_hover"><a href="login (esercizio 4 bonus).html">Login</a></li>
+              </ul>
+            </div>
+
+        </header>
+
+        <nav id="content-sidebar">
+              <h1>Barra di ricerca </h1>
+          <input type="text" placeholder="Cerca componenti">
+        </nav>
+
+        <section id="description">
+          <h1>LA COMPONENTISTICA DI UN COMPUTER</h1>
+          <div id = "computer">
+            <h2>Cos'è un Computer?</h2>
+            <p>Un <b>computer</b> non è altro che una macchina che esegue o elabora tutte
+            le istruzioni date da un utente o programmatore. <br>
+            Se pensiamo al computer non ci viene spontaneo pensare cosa lo fa funzionare,
+            ma bensì, pensiamo ad una tastiera, un mouse e un monitor o screen.<br>
+            In realtà, dentro alla "scatola" del nostro computer, sono nascosti dei
+            cosiddetti "componenti". <br>
+            Un componente non è altro che un oggetto piazzato o fissato in una
+            determinata maniera dento alla <i>scatola</i> del computer,<br>
+            che è utile, o meglio indispensabile per il suo funzionamento.
+            Un computer è formato da non molti componenti, e ognuno svolge il suo compito.<br>
+            Più componenti vanno a formare la parte fisica di un computer, che
+            è detta <mark>Hardware</mark>.</p>
+              <!--Immagine e descrizione di un computer-->
+                  <img
+                  src="images/computer.png"
+                  alt="Computer"
+                  title="Computer"
+                  class="computer_img">
+                  <br>
+                  <small>Diversi tipi di computer rappresentati in figura.</small>
+          </div>
+
+                <hr>
+
+                <b>Possiamo elencare i componenti principali di un computer, quindi:</b>
+                  <ul>
+                    <li><a href="#Scheda_Madre">Scheda Madre (MOBO)</a></li>
+                    <li><a href="#Processore">Processore (CPU)</a></li>
+                    <li><a href="#Memorie">Memorie (RAM)</a></li>
+                    <li><a href="#Scheda_Video">Scheda Video/Grafica (GPU)</a></li>
+                    <li><a href="#HDD">Hard Disk Drive (HDD)</a></li>
+                    <li><a href="#SSD">Solid State Disk (SSD)</a></li>
+                    <li><a href="#PSU">Alimentatore (PSU)</a></li>
+                    <li><a href="#CASE">CASE</a></li>
+                  </ul>
+
+                    <hr>
+
+                        <!--Section per definizione e componenti Scheda Madre-->
+                  <section id = "Scheda_Madre">
+                      <h2>Scheda Madre</h2>
+                        <p>La <b>scheda madre</b>, è un supporto elettronico, formato princioalmente da un
+                        circuito elettronico stampato, <br>
+                        nella quale giacciono la maggior parte dei componenti elettronici
+                        interni di un computer.</p>
+                            <!--Immagine e descrizione di una scheda madre-->
+                            <img src="images/scheda_madre_3D.png"
+                            alt="Rappresentazione grafica in 3D di una scheda madre"
+                            title="Scheda Madre 3D">
+                              <br>
+                            <small>Scheda Madre rappresentata in 3D</small>
+                            <!--Div per elencare componenti Scheda Madre-->
+                      <div id = "componenti_Scheda_Madre">
+                          <h3>Componenti principali di una <a href="#Scheda_Madre">scheda madre</a></h3>
+                            <p>Una scheda madre, possiede moltissimi componenti, alcuni
+                            addirittura microscopici, ma adesso andiamo ad analizzare quelli più importanti</p>
+                              <!--Elenco componenti-->
+                            <div id = "socket">
+                              <h4>Il socket</h4>
+                                <p>Il <b>socket</b> è un componente della <a href="#Scheda_Madre">scheda madre</a>, su
+                                cui è disposto uno dei componenti più importanti: il <a href="#Processore">Processore</a>.</p>
+                                    <!--Immagine e descrizione di un socket-->
+                                      <img src="images/Socket CPU.jpg"
+                                      alt="Socket di una CPU"
+                                      title="Socket CPU"
+                                      id= "socket_CPU">
+                                      <br>
+                                      <small>Socket di una CPU, in questo caso, socket di tipo <i>AM2</i> (abbastanza vecchio).</small>
+                            </div>
+                                <div id = "slot">
+                                  <h4>Gli SLOT per memorie</h4>
+                                    <p>Gli <b>SLOT</b> per le <a href="#Memorie">memorie</a>, sono dei
+                                  connettori elettrici utilizzati per collegare <br>
+                                  due circuiti stampati con l'elettricità, in questo caso per la <a href="#Memorie">RAM</a>.</p>
+                                      <!--Immagine e descrizione di uno slot per le memorie-->
+                                        <img src="images/Slot RAM.jpg"
+                                        alt="Slot della scheda madre, dove possiamo agganciarci i moduli della RAM"
+                                        title="Slot per RAM"
+                                        class="slot_RAM">
+                                        <br>
+                                        <small>Slot per memorie <a href="#Memorie">RAM</a> di tipo <i>DDR4</i></small>
+                                </div>
+                                    <div id = "PCIe">
+                                    <h4>Il PCIe</h4>
+                                      <p>Sul <b>Peripheral Component Interconnect Express</b>, abbreviato PCI Express o PCIe,
+                                      possiamo dire molto, ma <br> non soffermiamoci troppo, e prendiamo lo stesso significato dello <a href="#slot">slot</a>,
+                                      e sostituiamo a posto della <a href="#Memorie">RAM</a>, la <a href="#GPU">Scheda Grafica</a>.</p>
+                                        <!--Immagine e descrizione degli slot PCIe-->
+                                        <img src="images/PCIe slots.jpg"
+                                        alt="Slot PCIe x16"
+                                        title="Diversi slot PCIe"
+                                        class="slot_PCIe">
+                                        <br>
+                                        <br>
+                                        <small>Slot PCIe <i>x16</i> e <i>x1</i>, per alloggiamenti schede elettroniche di espansione</small>
+                                    </div>
+                            </div>
+                            <br>
+                              <div id = "classificazione_e_prezzi_schede_madri">
+                                <div id = "classificazione_schede_madri">
+                                  <!--Classificazione delle Schede Madri-->
+                                          <b>POSSIAMO CLASSIFICARE LE SCHEDE MADRI IN BASE A:</b>
+                                            <br>
+                                              Il <a href="#Processore">Processore</a> che dobbiamo installare sul <a href="#socket">socket</a>:
+                                                <ul>
+                                                  <li>Con <a href="#socket">socket</a> per <a href="#Processore">Processore</a> Intel;</li>
+                                                  <li>Con <a href="#socket">socket</a> per <a href="#Processore">Processore</a> AMD.</li>
+                                                </ul>
+
+                                              Alla grandezza della nostra <a href="#Scheda_Madre">Scheda Madre</a>:
+                                                <ul>
+                                                  <li>ATX (la più grande);</li>
+                                                  <li>Micro ATX (di grandezze medie);</li>
+                                                  <li>Mini ITX (La più piccola).</li>
+                                                </ul>
+                                </div>
+                                          <div id = "prezzi_schede_madri">
+                                                <!--Prezzi Schede Madri AMD-->
+                                                  <div id = "mobo_con_socket_amd">
+                                                    Ecco alcuni prezzi di Schede Madri per <a href="#Processore">Processori</a> AMD:
+                                                <ol>
+                                                  <li>Asus ROG Strix B450-F (ATX) &rightarrow;<a href="https://www.amazon.it/B450-F-GAMING-Scheda-Supporto-Doppia/dp/B07F714FT7/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=b450f&qid=1589618953&sr=8-1"
+                                                    target="_blank">Link amazon</a>.</li>
+                                                  <li>Asrock B450M Steel Legend (Micro ATX) &rightarrow; <a href="https://www.amazon.it/ASRock-B450M-Legend-in-acciaio/dp/B07MV9BMNY/ref=sr_1_4?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=scheda+madre+am4+micro+atx&qid=1589619425&sr=8-4"
+                                                    target="_blank">Link amazon</a>.</li>
+                                                  <li>Gigabyte B450 i Aorus Pro (Mini ITX) &rightarrow; <a href="https://www.amazon.it/Gigabyte-Aorus-Pro-Wi-Fi-Mini-ITX/dp/B07GZW32BV/ref=sr_1_6?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=scheda+madre+am4+mini+itx&qid=1589619770&sr=8-6"
+                                                    target="_blank">Link amazon</a>.</li>
+                                                </ol>
+                                              </div>
+                                              <div id = "mobo_con_socket_Intel">
+                                                  <!--Prezzi Schede Madri Intel-->
+                                                  <br>
+                                                Ecco alcuni prezzi di Schede Madri per <a href="#Processore">Processori</a> Intel:
+                                                  <ol>
+                                                    <li>ASUS ROG STRIX B365-F GAMING (ATX) &rightarrow; <a href="https://www.amazon.it/ASUS-ROG-STRIX-B365-F-GAMING/dp/B07RWDGJ1Z/ref=sr_1_4?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=scheda%2Bmadre%2Bintel&qid=1589620439&sr=8-4&th=1"
+                                                      target="_blank">Link amazon</a>.</li>
+                                                      <li>ASUS ROG Strix B360-G Gaming (Micro ATX) &rightarrow; <a href="https://www.amazon.it/Asus-Supporto-Processori-Generazione-MicroATX/dp/B07CD3R4T7/ref=sr_1_14?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=scheda+madre+intel+micro+atx&qid=1589620759&sr=8-14"
+                                                      target="_blank">Link amazon</a>.</li>
+                                                      <li>ASUS ROG Strix H370-I Gaming (Mini ITX) &rightarrow; <a href="https://www.amazon.it/Asus-Chipset-Supporto-Processori-Generazione/dp/B07BRKKBST/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=scheda+madre+mini+itx+intel&qid=1589620930&sr=8-3"
+                                                      target="_blank">Link amazon</a>.</li>
+                                                  </ol>
+                                              </div>
+                                          </div>
+                              </div>
+                      </section>
+
+                        <hr>
+                    <!--Section per definizione e componenti CPU-->
+          <section id = "Processore">
+                      <h2>Processore</h2>
+                        <p>Il <b>Processore</b>, è il componente più importante della circuiteria
+                        di un computer. <br>
+                        Dal punto di vista fisico, questo componente può essere un quadrato o un rettangolo di silicio, con, sotto ad esso, <br>
+                        dei <a href="#pin">pin</a>, molto piccoli, si tratta di una grandezza misurata in nanometri (nm). <br>
+                        Dal punto di vista logico, questo componente esegue tute le istruzioni che vengono date da un utente. <br>
+                        A differenza di come parliamo noi, per far ragionare al <b>processore</b>, dobbiamo scrivere delle istruzioni in un linguaggio che lui capisca. <br>
+                        Il <b>processore</b>, come un circuto, ragiona usando due numeri : 0 e 1; quindi i programmatori, scrivono attraverso un linguaggio di programmazione, <br>
+                        dei comandi/istruzioni, che deve eseguire la CPU; ma il processore non capisce neanche quelle, perciò gli interpreti, trasformano il codice <br>
+                        scritto, in linguaggio macchina , con <b>0</b> e <b>1</b>, così che il processore possa capire cosa gli stiamo dicendo.</p>
+                            <!--Immagine e descrizione CPU-->
+                            <img
+                            src="images/CPU.png"
+                            alt="Processore visto da davanti e dietro"
+                            title="Processore Intel"
+                            class="Central_Processing_Unit">
+                            <br>
+                            <small>Esempio di processore, in questo caso <i>Intel</i>, da fronte e retro.</small>
+                            <!--Section per elencare i componenti di una CPU-->
+                      <div id = "componenti_CPU">
+                          <h3>Componenti di un <a href="#Processore">Processore</a></h3>
+                            <p>Come tutta la circuiteria di un computer, anche la CPU ha dei suoi componenti.</p>
+                              <!--Elenco componenti-->
+                          <div id = "pin">
+                              <h4>I Pin</h4>
+                                  <p>I <b>pin</b> o piedini della <a href="#Processore">CPU</a>, sono collocati sotto ad essa, e servono per <br>
+                                  realizzare un collegamento elttrico, tra il <a href="#Processore">Processore</a> stesso e il <a href="#socket">socket</a>, collocato
+                                  sulla <a href="#Scheda_Madre">Scheda Madre</a>, in modo tale di far passare il segnale <br>
+                                  elettrico sulle piste presenti sulla scheda madre.</p>
+                                  <br>
+                                  <img
+                                  src="images/PIN Processore.jpg"
+                                  alt="Piccolissimi pin del processore"
+                                  title="Pin della CPU"
+                                  class="pin_CPU">
+                                  <br>
+                                  <small>Osserviamo in immagine i pin della CPU, sono molto piccoli, infatti la loro grandezza si misura in nanometri (nm).</small>
+                          </div>
+                              <div id = "core">
+                                <h4>I Core</h4>
+                                  <p>I <b>core</b> del <a href="#Processore">Processore</a>, non sono altro che, la suddivisione della <a href="#Processore">CPU</a> stessa <br>
+                                  in più parti, che possono essere 2, 4, 6, 8.....Più core abbiamo, maggiore sarà la velocità nell'eseguire le istruzioni.</p>
+                              </div>
+                              <br>
+                              <img src="images/core CPU.png"
+                              alt="2 core CPU"
+                              title="CPU dual core"
+                              class="cpu_core">
+                              <br>
+                              <small>Possiamo osservare dall'immagine un <a href="#Processore">processore</a> dual core.</small>
+                      </div>
+                      <br>
+                      <div id = "classificazione_e_prezzi_CPU">
+                        <!--Classificazione dei Processori-->
+                        <div id = "classificazione_processori">
+                            <b>POSSIAMO CLASSIFICARE I <a href="#Processore">PROCESSORI</a> IN BASE A:</b>
+                              <br>
+                                Il Produttore:
+                                  <ul>
+                                    <li>AMD;</li>
+                                    <li>Intel.</li>
+                                  </ul>
+                                In base al numero di <a href="#core">core</a>:
+                                    <ul>
+                                      <li>Single Core (1 core/core singolo);</li>
+                                      <li>Dual Core (2 core/core doppio);</li>
+                                      <li>Tri Core (3 core);</li>
+                                      <li>Quad Core (4 core);</li>
+                                      <li>Penta Core (5 core);</li>
+                                      <li>Hexa Core (6 core);</li>
+                                      <li>Hepta Core (7 core);</li>
+                                      <li>Octa Core (8 core)......e così via.</li>
+                                    </ul>
+                          </div>
+                          <div id = "prezzi_cpu">
+                              <!--Elenco dei prezzi per CPU AMD e Intel-->
+                              <div id = "cpu_AMD">
+                                  <!--Elenco per prezzi CPU AMD-->
+                                  Ecco alnuni <a href="#Processori">processori</a> AMD con un prezzo interessante:
+                                    <ol>
+                                      <li>AMD Ryzen 7 2700X (Octa Core) &rightarrow; <a href="https://www.amazon.it/AMD-YD2600BBAFBOX-Processore-RYZEN5-Socket/dp/B07B428M7F/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=cpu&qid=1589637859&sr=8-3&th=1"
+                                                                                      target = "_blank">Link amazon</a>.</li>
+                                      <li>AMD Ryzen 5 3600 (Hexa Core) &rightarrow; <a href="https://www.amazon.it/AMD-Ryzen-5-3600-Processori/dp/B07STGGQ18/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=r5+3600&qid=1589639476&sr=8-1"
+                                                                                      target="_blank">Link amazon</a>.</li>
+                                      <li>AMD Ryzen 5 2600 (Hexa Core) &rightarrow; <a href="https://www.amazon.it/AMD-YD2600BBAFBOX-Processore-RYZEN5-Socket/dp/B07B41WS48/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=r5+2600&qid=1589639576&sr=8-1"
+                                                                                      target="_blank">Link amazon</a>.</li>
+                                    </ol>
+
+                              </div>
+                              <div id = "cpu_Intel">
+                                    <!--Elenco dei prezzi di CPU Intel-->
+                                    Ecco qua invece, dei <a href="#Processori">processori</a> Intel con un prezzo interessante:
+                                    <ol>
+                                      <li>Intel Core i7-9700K (Octa Core) &rightarrow; <a href="https://www.amazon.it/Intel-i7-9700K-processore-Scatola-intelligente/dp/B07HHN6KBZ/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=cpu+intel&qid=1589639959&sr=8-1"
+                                                                                        target="_blank">Link amazon</a>.</li>
+                                      <li>Intel Core i3-10100 (Quad Core) &rightarrow; <a href="https://www.amazon.it/Intel-Core-i3-10100-Processore-LGA1200/dp/B0883MTJSR/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1G9NEVJS3FMU2&dchild=1&keywords=i3+10100&qid=1589640066&sprefix=i3+10%2Caps%2C205&sr=8-1"
+                                                                                        target="_blank">Link amazon</a>.</li>
+                                      <li>Intel Core i5-9600K (Hexa Core) &rightarrow; <a href="https://www.amazon.it/Intel-i5-9600K-processore-Scatola-intelligente/dp/B07HHLX1R8/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=i5&qid=1589640270&sr=8-3"
+                                                                                        target="_blank">Link amazon</a>.</li>
+                                    </ol>
+                              </div>
+                          </div>
+                      </div>
+          </section>
+
+                  <hr>
+
+                <!--Section per definizione e componenti RAM-->
+          <section id = "Memorie">
+            <h2>Memorie (RAM)</h2>
+            <p>Le memorie <b>RAM</b> &rightarrow; <mark>Random Access Memory</mark>, sono un tipo di memoria di <mark>Lettura</mark> e <mark>Scrittura</mark>, <br>
+            infatti sono un tipo di memoria volatile, ovvero, la memoria che, al suo interno, contiene tutti <br>
+            i programmi in esecuzione dal <a href = "#Processore">processore</a>, ed è detta volatile per fatto che tutti i programmi al suo interno, <br>
+            quando il computer viene spento, vengono chiusi, per questo si chiama volatile, perchè vola via.</p>
+                  <!--Section per elencare tutti i componenti della RAM-->
+              <div id = "componenti_Memoria_RAM">
+                  <h3>Componenti di una <a href="#Memorie">memoria RAM</a></h3>
+                      <p>La <a href="#Memorie">RAM</a> non è formata da molti componenti, ma andiamo ad analizzare quelli più importanti:</p>
+                            <!--Elenco componenti-->
+                          <div id = "Packages">
+                            <h4>Memorie Package</h4>
+                                <p>Al suo interno, la <a href="#Memorie">RAM</a>, detiene questi Package, che in elettronica, possiamo definire <br>
+                                come, dei piccoli contenitori, in questo caso, questi piccoli contenitori svolgono la funzione di memoria.<br>
+                                Si trovano attaccati alla scheda elettronica della memoria.</p>
+                                <br>
+                                <img
+                                src="images/Package.jpg"
+                                alt="Package elettronico"
+                                title="Package"
+                                class="package_RAM">
+                                <br>
+                                <small>In questa immagine, vediamo un package elettronico classico.</small>
+                          </div>
+                    <div id = "pin_RAM">
+                              <h4>I pin</h4>
+                                <p>In questo caso possiamo andare a rivedere i <a href="#pin">pin</a> della <a href="#Processore">CPU</a>. </p>
+                    </div>
+              </div>
+              <div id = "caratteristiche_prezzi_RAM">
+                <!--Caratteristiche e prezzi RAM-->
+                  <div id = "caratteristiche_RAM">
+                      <b>POSSIAMO CLASSIFICARE LA RAM, IN BASE ALLA TECNOLOGIA DI MEMORIA UTILIZZATA:</b>
+                          <ul>
+                              <!--Elenco di solo Memoria DDR-->
+                            <li>DDR4;</li>
+                            <li>DDR3;</li>
+                            <li>DDR2;</li>
+                            <li>DDR.</li>
+                          </ul>
+                  </div>
+                  <div id = "prezzi_RAM" >
+                      ELENCHIAMO DI SEGUITO, DELLE <a href="#Memorie">MEMORIE <b>RAM</b></a> DI ULTIMA GENERAZIONE DDR4:
+                        <!--Lista prezzi solo DDR4-->
+                      <ol>
+                        <li>Corsair Vengeance LPX 16GB (Kit 2 x 8 GB) 3000MHz &rightarrow;<a href="https://www.amazon.it/Corsair-Vengeance-Memorie-Desktop-Prestazioni/dp/B0134EW7G8/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=memoria+ram+vengeance&qid=1589640942&sr=8-3"
+                                          target="_blank">Link amazon</a>.</li>
+                        <li>HyperX Predator 16GB (Kit 2 x 8 GB) 3200MHz &rightarrow;<a href="https://www.amazon.it/HyperX-Predator-HX432C16PB3AK2-16-Memoria/dp/B07GL6CLTT/ref=psdc_460119031_t3_B07D1XCKWW"
+                                          target="_blank">Link amazon</a>.</li>
+                        <li>Viper 4 8GB (Kit 2 x 4GB) 3200MHz &rightarrow;<a href="https://www.amazon.it/Patriot-Memory-PC4-24000-3000MHz-memoria/dp/B016A29PWA/ref=sr_1_9?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=ram%2B8%2Bgb&qid=1589641130&s=pc&sr=1-9&th=1"
+                                          target="_blank">Link amazon</a>.</li>
+                      </ol>
+                  </div>
+              </div>
+          </section>
+
+                  <hr>
+
+                <!--Section per definizione e componenti del motore grafico-->
+          <section id = "Scheda_Video">
+                <h2>La Scheda Video</h2>
+                    <p>La Scheda Video o Scheda Grafica, è un componente elttronico del <a href="#computer">computer</a>, che <br>
+                    elabora tutto il motore grafico di un sistema operativo, software ecc..., a partire da un istruzione, o segnale di input <br>
+                    che viene mostrato in output, sullo schermo all'utente</p>
+                      <img
+                      src="images/Scheda Grafica.jpg"
+                      alt="Immagine e descrizione del modello della scheda grafica presente"
+                      title="Scheda Video"
+                      class="img_scheda_video"
+                      id = "scheda_video_immagine">
+                      <br>
+                      <small>Foto di una scheda video, abbstanza vecchia, ma molto chiara</small>
+                      <!--Section per component della scheda video-->
+                  <div id = "componenti_Scheda_Video">
+                      <h3>Componenti di una <a href="#Scheda_Video">Scheda Grafica</a></h3>
+                          <p>Possiamo dire che la Scheda video, è un computer a parte, anche se serve solo per elaborare il motore grafico <br>
+                          di un programma, questa, ha una propria cpu, chiamata però <a href="#GPU">GPU</a>, ha anche una propria memoria RAM, che però <br>
+                          viene chiamata <a href="#VRAM">VRAM</a> (Video RAM), ha anche un proprio raffreddamento, ma adesso andiamo a vedere i suoi componenti principali: </p>
+                              <!--Elenco componenti-->
+                            <div id = "GPU">
+                                <h4>La GPU</h4>
+                                  <p>La <b>GPU</b> non è altro che la <a href="#Processore">CPU</a>, della Scheda Grafica. <br>
+                                  Esesgue tutte le istruzioni per mettere in moto un interfaccia grafica; facendo ciò, da vita al suo Motore Grafico.</p>
+                                  <img src="images/GPU.jpg"
+                                  alt="Processore di un motore grafico"
+                                  title="GPU di una Scheda Video"
+                                  class="gpu_scheda_video">
+                                  <br>
+                                  <small>Possiamo osservare un <a href="#Processore">processore</a> di una <a href="#Scheda_Video">scheda video</a>, quindi, in questo caso, una GPU;
+                                  ai lati possiamo osservare anche le memorie dette <a href="#VRAM">VRAM</a>.</small>
+                            </div>
+                            <div id = "VRAM">
+                                <h4>La memoria VRAM</h4>
+                                    <p>La memoria <b>VRAM</b> è la classica <a href="#Memorie">Memoria RAM</a>, ma di un motore grafico. <br>
+                                    Ciò consente alla <a href="#Scheda_Video">GPU</a> di accedere rapidamente alle informazioni e di produrre video sul monitor. <br>
+                                    L’utilizzo della <a href="#Memorie">RAM</a> video per questa attività è molto più rapido rispetto all’utilizzo della <a href="#Memorie">RAM</a><br>
+                                    di sistema, poiché la <a href="#Memorie">RAM</a> video si trova accanto alla <a href="#Scheda_Video">GPU</a> nella scheda grafica. <br>
+                                    VRAM è costruito per questo scopo ad alta intensità ed è quindi “dedicato”.</p>
+                                    <b>Per un immagine della video ram puoi tonrare su, premendo <a href="#scheda_video_immagine">qui</a> e vedere l'immagine della <a href="#Scheda_Video">scheda video</a> </b>
+                            </div>
+                            <div id = "AGP">
+                                <h4>Il connettore AGP</h4>
+                                  <p>L'<b>Accelerated Graphics Port</b> (AGP) è un'interfaccia di collegamento come soluzione per <b>aumentare prestazioni e velocità</b> delle <br>
+                                    <b>schede grafiche </b> connesse ai PC. Questo connettore, va poi agganciato al <a href="#PCIe"><b>PCIe</b></a> della <a href="#Scheda_Madre">Scheda Madre</a>. </p>
+                                    <b>Per un immagine del connettore AGP puoi tonrare su, premendo <a href="#scheda_video_immagine">qui</a> e vedere l'immagine della <a href="#Scheda_Video">scheda video.</a> </b>
+                            </div>
+                  </div>
+                  <div id = "classificazione_prezzi_gpu">
+                    <!--Classificazione e prezzi schede video-->
+                    <div id = "classificazione_gpu">
+                        <!--Classificazione delle gpu-->
+                      POSSIAMO CLASSIFICARE LE <b><a href="#Scheda_Video">SCHEDE VIDEO</a></b> IN BASE A:
+                        <br>
+                          Il Produttore
+                            <ul>
+                              <li>NVIDIA;</li>
+                              <li>AMD.</li>
+                            </ul>
+                          La tecnologia di  <a href="#VRAM">VRAM</a> utilizzata:
+                            <ul>
+                              <li>GDDR6/5/4/3/2;</li>
+                              <li>HBM2.</li>
+                            </ul>
+                    </div>
+                        <!--Prezzi convenienti gpu-->
+                      <div id = "prezzi_gpu">
+                          ECCO DI SEGUITO, ALCUNI PREZZI CONVENIENTI PER UNA <a href="#Scheda_Video">SCHEDA VIDEO</a>:
+                          <ol>
+                            <li>GIGABYTE GeForce GTX 1650 Super (GDDR6) &rightarrow;<a href="https://www.amazon.it/Gigabyte-grafica-GeForce-Windforce-Express/dp/B081VVP8GL/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=1650super&qid=1589783484&sr=8-1"
+                                                                                      target="_blank">Link amazon</a>.</li>
+                            <li>MSI Nvidia GTX1660Ti Gaming (GDDR6) &rightarrow;<a href="https://www.amazon.it/MSI-Nvidia-GTX1660Ti-Gaming-Fan/dp/B07NW97P21/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=1660ti&qid=1589783735&sr=8-2"
+                                                                                  target="_blank">Link amazon</a>.</li>
+                            <li>Gigabyte GeForce RTX 2070 Super (GDDR6) &rightarrow;<a href="https://www.amazon.it/Gigabyte-GeForce-Super-WINDFORCE-GV-N207S-WF3OC-8GD/dp/B07X51LTKK/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070super&qid=1589783890&sr=8-1"
+                                                                                      target="_blank">Link amazon</a>.</li>
+                          </ol>
+                      </div>
+                  </div>
+          </section>
+
+                <hr>
+
+            <!--Section per definizione e componenti dell'HDD-->
+          <section id = "HDD">
+              <h2>L'Hard Disk Drive (HDD)</h2>
+                  <p>L'<b>Hard Disk Drive</b>, abbrevito HDD, è un disposiivo di memorizzazione <b><u>permantente</u></b>, ciò vuol dire che <br>
+                  tutto ciò che viene memorizzato al suo interno, anche in mancanza di elettricità, tutti i dati archiviati <br>
+                  non vengono eliminati, cosa che succede nel caso della <a href="#Memorie">RAM</a>; questa è una memoria di tipo <b>ROM</b>.<br>
+                  Quindi è una memoria <u>NON</u> volatile. <br>
+                  La memoria <b>ROM</b> è una <mark>memoria di sola lettura</mark> &rightarrow; <mark>Read Only Memory</mark>. <br>
+                  Quindi, quando scriviamo, lo facciamo nella <b><a href="#Memorie">RAM</a></b>, che è una memoria di lettura e scrittura.</p>
+                      <img src="images/Hard Disk.jpg"
+                      alt="Elencazione dei componenti di un HDD"
+                      title="Hard Disk visto da dentro"
+                      class="immagine_hard_disk_drive"
+                      id="immagine_hard_disk_drive_">
+                      <br>
+                        <small>foto molto dettagliata, nella quale possiamo vedere un Hard Disk visto da dentro insieme a tutti i suoi componenti</small>
+                      <!---Section per componenti dell'HDD-->
+                  <div id = "componenti_Hard_Disk_Drive">
+                      <h3>Componenti di un <a href="#HDD">Hard Disk</a></h3>
+                          <p>Principalmente, i componenti più importanti dell'Hard Disk, sono:</p>
+                            <!--Elenco componenti-->
+                          <div id = "testina_Hard_Disk_Drive">
+                              <h4>La testina</h4>
+                                  <p>La testina di un <a href="#HDD">HDD</a>, è una parte di esso, predisposto alla <b>scrittura</b> e alla <b>lettura</b>
+                                  dei bit registrati/archiviati su di esso.</p>
+                                      <b>Per una foto della testina dell'<a href="#HDD">Hard Disk</a> puoi premere <a href="#immagine_hard_disk_drive_">qui</a> e tornare a vedere la foto precedente.</b>
+                                    </div>
+                                    <div id = "dischi_HDD">
+                                      <h4>I dischi o piatti</h4>
+                                        <p>I <b>dischi</b> presenti all'interno di un <a href="#HDD">HDD</a>, sono tutti <br>
+                                        dispositivi di memorizzazione, nel quale, vengono letti e scritti dati dalle <a href="#testina_Hard_Disk_Drive">Testine</a>.</p>
+                                        <b>Per una foto dei piatti dell'<a href="#HDD">Hard Disk</a> puoi premere <a href="#immagine_hard_disk_drive_">qui</a> e tornare a vedere la foto precedente.</b>
+                      </div>
+                </div>
+              <div id = "classificazione_componenti_hdd">
+                <!--Classificazione e prezzi HDD-->
+                <h1>NON ELENCHIAMO NE LA CALSSIFICAZIONE NE I PREZZI DEGLI HARD DISK, POICHE SONO DISPOSITIVI DI MEMORIZZAZIONE ORMAI CONSIDERABILI "MORTI".</h1>
+              </div>
+          </section>
+
+                          <hr>
+
+                        <!--Section per definizione e componenti SSD-->
+                    <section id = "SSD">
+                          <h2>L'SSD</h2>
+                              <p>L'<b>SSD</b> (Solid State Disk), è un dispositivo di memorizzazione, che svolge la stessa funzione <br>
+                              dell'<a href="#HDD">Hard Disk</a>, ma, possiamo sostituire alla <a href="#testina_Hard_Disk_Drive">Testina</a> e ai <a href="#dischi_HDD">Dischi</a> <br>
+                              una semplice e leggerissima <b>Scheda Elettronica</b> e dei <a href="#Packages"><b>Packages</b></a> di Memoria ROM.</p>
+                              <img src="images/SSD.jfif"
+                              alt="Immagine proiettante un ssd di tipo sata, con solo una scheda elettroica al suo interno"
+                              title="SSD SATA"
+                              class="img_ssd"
+                              id="immagine_ssd">
+                              <br>
+                              <small>Osserviamo in immagine una immagine di una semplicissima scheda elettroica e delle memorie dentro.</small>
+                                <div id ="classificazione_prezzi_SSD">
+                                  <!--Classifica e prezzi degli SSD-->
+                                    <div id = "classifica_ssd">
+                                      <br>
+                                        POSSIAMO SUDDIVIDERE GLI SSD IN BASE A:
+                                        <br>
+                                        La tecnologia utilizzata:
+                                          <ul>
+                                            <li>SSD SATA;</li>
+                                            <li>SSD NVMe M.2.</li>
+                                          </ul>
+                                    </div>
+                                    <div id="prezzi_ssd">
+                                          <!--Elenco degli ssd-->
+                                        ECCO DEGLI SSD ABBASTANZA VENDUTE E CONVENIENTI:
+                                          <ol>
+                                            <li>Sabrent SSD Interno 1TB (NVMe PCIe M.2) &rightarrow;<a href="https://www.amazon.it/Sabrent-Interno-Rocket-Prestazioni-SB-ROCKET-1TB/dp/B07LGF54XR/ref=sr_1_8?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=ssd+nvme&qid=1589791677&sr=8-8"
+                                                              target="_blank">Link amazon</a>.</li>
+                                            <li>SSD SAMSUNG 1TB SATA &rightarrow;<a href="https://www.amazon.it/Samsung-MZ-76Q1T0BW-Unit%C3%A0-Interna-SATA/dp/B07KSHCG3R/ref=sr_1_11?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=ssd+sata&qid=1589791764&sr=8-11"
+                                                              target="_blank">Link amazon</a>.</li>
+                                            <li>Corsair SSD NVMe PCIe M.2 con dissipatore &rightarrow;<a href="https://www.amazon.it/Corsair-Velocit%C3%A0-Lettura-Scrittura-Sequenziale/dp/B07SNGBW84/ref=sr_1_7?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=ssd+nvme+2tb&qid=1589791887&sr=8-7"
+                                                              target="_blank">Link amazon</a>.</li>
+                                          </ol>
+                                    </div>
+                                </div>
+                    </section>
+
+                          <hr>
+
+                        <!--Section per definizione Alimentatore-->
+                    <section id = "PSU">
+                        <h2>L'ALimentaore (PSU)</h2>
+                            <p>Un <b>Alimentatore</b> (PSU) &rightarrow; Power Supply Unit, è un componente hardware, che prende alimentazione dall'esterno <br>
+                            e regola la <b>tensione elettrica</b>, in modo tale da poterla dare a tutti i componenti del <a href="#computer">computer</a>, così da farli <br>
+                            alimentare, e di conseguenza, farli funzionare.
+                            Non c'è da soffermarsi molto su questo componente, basta una spiegazione come questa, per capire la definizione della parola <b>Alimentatore</b></p>
+                              <img src="images/Alimentatore.jpg"
+                              alt="Alimentatore visto da dentro"
+                              title="Alimentatore di un computer"
+                              class="immagine_alimentatore"
+                              id="img_alimentatore">
+                              <br>
+                              <small>Vediamo un alimentatore aperto, visto da dentro, pieno di batterie, elettroliti, condensatori, transistor e vari produttori di energia.</small>
+                        <div id = "classfiicazione_prezzi_alimentatori">
+                            <!--Classificazione e prezzi degli Alimentatori-->
+                              <div id = "classificazione_alimentatori">
+                                <br>
+                                  POSSIAMO CLASSIFICARE GLI ALIMENTATORI IN BASE ALLA LORO MODULAZIONE:
+                                  <ul>
+                                    <li>COMPLETAMENTE MODULARI;</li>
+                                    <li>SEMIMODULARI;</li>
+                                    <li>NON MODULARI.</li>
+                                  </ul>
+                              </div>
+                            <div id = "prezzi_Alimentatori">
+                                <!--Prezzi di Alimentatori divisi per fasce -> bassa, media, alta-->
+                                  <b>DIVIDIAMO I PREZZI DEGLI ALIMENTATORI PER PC DI FASCIA BASSA, MEDIA E ALTA:</b>
+                                <ol>
+                                  <li>FASCIA BASSA - (400/500)W consigliabile &rightarrow; Corsair 450W NON Modulare &rightarrow; <a href="https://www.amazon.it/Corsair-Certificazione-Bronze-Alimentatore-Non-Modulare/dp/B07YVWMTT5/ref=sr_1_1?dchild=1&keywords=alimentatore+450w&qid=1589792558&s=electronics&sr=1-1"
+                                                                                                                                    target="_blank">Link amazon</a>.</li>
+                                  <li>FASCIA MEDIA - (550/650)W consigliabile &rightarrow; Cooler Master MasterWatt 650W SEMIMODULARE &rightarrow; <a href="https://www.amazon.it/Cooler-Master-Alimentatore-Semi-Fanless-MPX-6501-AMAAB-EU/dp/B076PGPFWV/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=alimentatore+semimodulare+650w&qid=1589792724&s=electronics&sr=1-2"
+                                                                                                                                                    target="_blank">Link amazon</a>.</li>
+                                  <li>FASCIA ALTA - (750 in poi)W consigliabile &rightarrow; Corsair 850W COMPLETAMENTE MODULARE &rightarrow; <a href="https://www.amazon.it/Corsair-RM850-Alimentatore-Completamente-Modulare/dp/B07S3X7QV7/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=alimentatore+modulare+800w&qid=1589792923&s=electronics&sr=1-1"
+                                                                                                                                                target="_blank">Link amazon</a>.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </section>
+
+                            <hr>
+
+                        <!--Section per definizione CASE-->
+                    <section id = "CASE">
+                        <h2>Il CASE</h2>
+                            <p>Non soffermiamoci molto sul case, diciamo solo che è una <i>scatola</i> che contiene tutti i componenti hardware <br>
+                            del <a href="#computer">computer</a> al suo interno.</p>
+          </section>
+      </section>
+
+        <footer id="content-footer">
+            <h1>Informazioni sviluppatore</h1>
+            Sito creato da Kristian Tola.
+
+          <div class="footer">
+
+            <a href="https://www.instagram.com/tola.kristian_/" target="_blank"><img src="images/instagram.png" alt="instagram" id="instagram" class="contatti"></a>
+            <a href="https://www.facebook.com/kristian.tola.9" target="_blank"><img src="images/fabebook.jpg" alt="facebook" id="facebook" class="contatti"></a>
+            <a href="tel:3791288018" target="_blank"><img src="images/whatsapp.png" alt="whatsapp" id="whatsapp" class="contatti"></a>
+            <a href="https://web.telegram.org/#/im?p=@Ao_bella" target="_blank"><img src="images/telegram.jpg" alt="telegram" id="telegram" class="contatti"></a>
+            <a href="mailto:ktola418@gmail.com"><img src="images/mail.png" alt="mail" id="mail" class="contatti"></a>
+          </div>
+        </footer>
+
+    </section>
+  </body>
+</html>

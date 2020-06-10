@@ -1,0 +1,13 @@
+#menu li{
+	position: relative;
+	top: 2px;
+}
+
+
+#current_page{
+	border-bottom-color: white;
+}
+
+.menu_hover:hover{
+    border-bottom-color: white;
+}

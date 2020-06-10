@@ -1,0 +1,82 @@
+#send_feedback{
+    border-radius: 5px;
+    color: white;
+    background-color: #1c345a;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 140px;
+    float: right;
+}#logo{
+    background-image: url('../../HTML/Esercizi/images/logo.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-position: left center;
+    padding-left: 125px;
+    background-size: 100px 100px;
+}body{
+    font-size: 18px;
+    font-family: sans-serif, 'Open Sans', 'Arial';
+    color: black;
+}#logo{
+    background-color: #1c345a;
+    color: white;
+}#content-footer{
+    background-color: #1c345a;
+    color: white;
+}a[href="#content-main"]{
+    font-weight: bold;
+}h1{
+    color: #6e0c0c;
+}#description h2, h3, h4, h5, h6{
+    color: #1c345a;
+}#content-footer h1{
+    color: white;
+}a:link, a:visited{
+    color: #9e1616;
+    cursor: pointer;
+}a:hover{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}a[href="login (esercizio 4 bonus).html"]{
+    color: #1c345a;
+}#content-sidebar{
+    width: 20%;
+    float: left;
+}#description{
+    width: 70%;
+    float: right;
+}footer{
+    clear: both;
+}nav, footer{
+    color: white;
+}#menu ul{
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+#menu li{
+	display: inline-block;
+	border-top-color: black;
+	border-right-color: black;
+	border-left-color: black;
+	border-width: 2px;
+	border-style: solid;
+	
+	margin: 0px 2px 0px 2px;
+	padding: 0px 40px 0px 40px;
+}#menu li{
+	position: relative;
+	top: 2px;
+}
+
+
+#current_page{
+	border-bottom-color: white;
+}
+
+.menu_hover:hover{
+    border-bottom-color: white;
+}

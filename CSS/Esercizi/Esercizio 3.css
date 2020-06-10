@@ -1,0 +1,19 @@
+header{
+    background-color: springgreen;
+}nav{
+    background-color: black;
+    width: 20%;
+    float: left;
+}section{
+    background-color: yellow;
+    width: 70%;
+    float: right;
+}footer{
+    background-color: blue;
+    clear: both;
+}nav, footer{
+    color: white;
+}.box{
+    height: 200px;
+    margin: 2% 2% 2% 2%;
+}

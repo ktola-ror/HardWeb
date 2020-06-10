@@ -1,0 +1,11 @@
+#content-sidebar{
+    width: 20%;
+    float: left;
+}#description{
+    width: 70%;
+    float: right;
+}footer{
+    clear: both;
+}nav, footer{
+    color: white;
+}

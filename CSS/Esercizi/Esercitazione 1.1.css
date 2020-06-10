@@ -1,0 +1,8 @@
+#logo{
+    background-image: url('../../HTML/Esercizi/images/logo.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-position: left center;
+    padding-left: 125px;
+    background-size: 100px 100px;
+}

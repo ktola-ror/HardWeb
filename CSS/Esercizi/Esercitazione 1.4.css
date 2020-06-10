@@ -1,0 +1,23 @@
+a[href="#content-main"]{
+    font-weight: bold;
+}h1{
+    color: #6e0c0c;
+}#description h2, h3, h4, h5, h6{
+    color: #1c345a;
+}#content-footer h1{
+    color: white;
+}a:link, a:visited{
+    color: #9e1616;
+    cursor: pointer;
+}a:hover{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}#socket_CPU{
+    height: 500px;
+    width: 550px;
+}a[href="login (esercizio 4 bonus).html"]{
+    color: #1c345a;
+}.computer_img{
+    width: 80%;
+}

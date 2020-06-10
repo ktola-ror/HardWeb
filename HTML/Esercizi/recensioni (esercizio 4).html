@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it-IT" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name = "keywords" content="Blog Kristian Tola , Computer">
+    <meta neme = "acceskey" content = "componenti , sottocomponenti, migliori componenti">
+    <meta name = "author" content = "Kristian Tola">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recensioni.css" type="text/css">
+    <link rel="stylesheet" href="footer.css" type="text/css">
+    <link rel="icon" href="images/icona sito.png">
+    <title>Recensioni</title>
+  </head>
+  <body>
+
+    <section id = "content-main">
+
+      <header id="content-header">
+            
+          <h1 id="logo">HardWeb</h1>
+
+          <div id="menu">
+
+          <ul>
+              <li class="menu_hover"><a href="Home Page (esercizio 2).html">Main</a></li>
+              <li class="menu_hover"><a href="componenti_tabella (esercizio 3).html">Recensioni componenti</a></li>
+              <li id="current_page"><a href="#content-main">Aggiungi una nuova recensione</a></li>
+              <li class="menu_hover"><a href="login (esercizio 4 bonus).html">Login</a></li>
+          </ul>
+        
+        </div>
+
+    </header>
+
+        <section id="description">
+
+          <div>
+
+      <h1>Scrivi una recensione ad un prodotto</h1>
+
+          <form>
+
+              <!--Nome del prodotto-->
+              <label for="nome_prodotto">Tipo prodotto</label>
+              <input type="text" name="nome_prodotto" placeholder="Inserisci il nome del prodotto">
+
+              <!--Genere-->
+              <label for="genere_prodotto">Genere prodotto</label>
+              <select name="genere_prodotto" multiple size="3">
+                  <option value="scheda_madre_opt">Scheda Madre</option>
+                  <option value="processore_opt">Processore</option>
+                  <option value="ram_opt">RAM</option>
+                  <option value="gpu_opt">Scheda Grafica</option> 
+                  <option value="hdd">Hard Disk</option>
+                  <option value="ssd">Solid State Drive</option>
+                  <option value="psu">Alimentatore</option>
+                  <option value="case">Case</option>
+              </select>
+
+              <!--Contenuto recensione-->
+              <label for="contenuto_recensione">Inserisci un contenuto alla tua recensione</label>
+              <textarea name="contenuto_recensione" id="contenuto_recensione" cols="20" rows="10" placeholder="Scrivi il contenuto della tua recensione su questa area di testo"></textarea>
+
+              <!--Voto finale-->
+              <label for="voto_finale">Voto finale</label>
+              <select name="voto_finale">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+              </select>
+
+              <!--Pulsante per salvare la recensione-->
+              <input type = "submit" value="Inserisci recensione &rightarrow;" id="send_feedback">
+          </form>
+
+        </div>
+
+        </section>
+
+      <footer id="content-footer">
+          <h1>Informazioni sviluppatore</h1>
+          Sito creato da Kristian Tola.
+
+        <div class="footer">
+
+          <a href="https://www.instagram.com/tola.kristian_/" target="_blank"><img src="images/instagram.png" alt="instagram" id="instagram" class="contatti"></a>
+          <a href="https://www.facebook.com/kristian.tola.9" target="_blank"><img src="images/fabebook.jpg" alt="facebook" id="facebook" class="contatti"></a>
+          <a href="tel:3791288018" target="_blank"><img src="images/whatsapp.png" alt="whatsapp" id="whatsapp" class="contatti"></a>
+          <a href="https://web.telegram.org/#/im?p=@Ao_bella" target="_blank"><img src="images/telegram.jpg" alt="telegram" id="telegram" class="contatti"></a>
+          <a href="mailto:ktola418@gmail.com"><img src="images/mail.png" alt="mail" id="mail" class="contatti"></a>
+        </div>
+      </footer>
+
+    </section>
+  </body>
+</html>

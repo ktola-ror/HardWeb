@@ -1,0 +1,24 @@
+.contatti{
+    margin: 20px 0px 20px 0px;
+}#instagram{
+    width: 60px; 
+    height: 50px; 
+    border-radius: 10px;
+    margin-left: 20px;
+}#whatsapp{
+    width: 60px; 
+    height: 50px; 
+    border-radius: 10px;
+}#telegram{
+    width: 60px; 
+    height: 50px; 
+    border-radius: 10px;
+}#facebook{
+    width: 60px; 
+    height: 50px; 
+    border-radius: 10px;
+}#mail{
+    width: 60px; 
+    height: 50px; 
+    border-radius: 10px;
+}
